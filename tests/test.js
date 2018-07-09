@@ -62,7 +62,7 @@ describe('basic example UI tests', async () => {
         const trolleyContents = await commonMethods.getElementLength(page, 'trolleyContents');
         expect(trolleyContents).toEqual(1);
         await commonMethods.clickElement(page, 'closeTrolley');
-    })
+    });
 
 
     it('can be viewed on a mobile', async () => {
@@ -73,21 +73,4 @@ describe('basic example UI tests', async () => {
             path: filePath
         });
     });
-
-    // it('can be stubbed to return a given response', async () => {
-    //     await page.goto('http://the-internet.herokuapp.com');
-    //     let link = await commonMethods.findLinkByText(page, 'Checkboxes');
-    //     await page.setRequestInterception(true);
-    //     await link.click();
-    //     await page.on('request', request => {
-    //         request.respond({
-    //             status: 404,
-    //             contentType: 'text/plain',
-    //             body: 'Not Found!'
-    //         });
-    //     });
-    //     await page.waitForNavigation();
-    //     let textContent = await commonMethods.getTextContent(page, 'body');
-    //     await expect(textContent).toContain('Not Found!');
-    // })
 });
