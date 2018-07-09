@@ -55,6 +55,12 @@ Start the server using:
 npm run server
 ```
 
+### Run tests
+
+Install dependencies by running 'yarn'
+
+Run the tests by running 'yarn test:puppeteer'
+
 When done, the products API will be running on  `http://localhost:8001/api/products`
 
 keep it running on a terminal and go to the next step.
