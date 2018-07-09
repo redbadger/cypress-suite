@@ -57,9 +57,16 @@ npm run server
 
 ### Run tests
 
-Install dependencies by running 'yarn'
+Install dependencies by running 
 
-Run the tests by running 'yarn test:puppeteer'
+``` bash 
+yarn
+```
+Run the tests by running 
+
+``` bash
+yarn test:puppeteer
+```
 
 When done, the products API will be running on  `http://localhost:8001/api/products`
 
