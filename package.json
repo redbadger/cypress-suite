@@ -11,7 +11,6 @@
     "esm": "^3.0.61",
     "express": "^4.16.3",
     "node-sass-chokidar": "^1.2.2",
-    "puppeteer": "^1.5.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-redux": "^5.0.7",
@@ -25,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:puppeteer": "jest ./tests",
+    "test:cypress": "cypress run",
     "eject": "react-scripts eject",
     "server": "nodemon --watch public server.js"
   },
@@ -61,6 +60,9 @@
     "babel-jest": "^23.2.0",
     "babel-loader": "8.0.0-beta.0",
     "babel-register": "^6.26.0",
+    "cypress": "^3.0.2",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cypress": "^2.0.1",
     "jest-cli": "^23.2.0",
     "nodemon": "^1.17.3",
     "react-addons-test-utils": "^15.6.2"
