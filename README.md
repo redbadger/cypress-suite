@@ -1,3 +1,7 @@
+## A basic Cypress suite of tests for learning or building upon
+
+### Built on top of react-shopping-cart project by jeffersonRibeiro
+
 ## 🛍️ Simple ecommerce cart application built using React Redux
 <p align="center">
   <img src="https://img.shields.io/badge/React-16.3.1-blue.svg">
@@ -55,19 +59,6 @@ Start the server using:
 npm run server
 ```
 
-### Run tests
-
-Install dependencies by running 
-
-``` bash 
-yarn
-```
-Run the tests by running 
-
-``` bash
-yarn test:puppeteer
-```
-
 When done, the products API will be running on  `http://localhost:8001/api/products`
 
 keep it running on a terminal and go to the next step.
@@ -80,6 +71,27 @@ npm start
 ```
 
 The application will start automatically in your browser on `http://localhost:3000`
+
+### Run tests
+
+Install dependencies by running 
+
+``` bash 
+yarn
+```
+
+Install the Cypress driver with
+```bash
+yarn add cypress --dev
+```
+
+Run the tests from the command line by running 
+
+``` bash
+yarn test:cypress
+```
+
+#### Cypress tests can also be run from within the downloaded test runner, which allows for easy debugging
 
 <br/>
 
